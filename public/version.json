@@ -1,0 +1,14 @@
+[
+  {
+    "version": "v2.7.1",
+    "content": "1、修复minimax偶尔会中断的问题<br>\r\n2、修复MJ绘画的niji参数和style参数<br>\r\n3、修复其他bug<br>\r\n4、更新敏感词库",
+    "add_time": "2024-01-12",
+    "index": null
+  },
+  {
+    "version": "v2.7.2",
+    "content": "增加Gemini通道",
+    "add_time": "2024-01-13",
+    "index": null
+  }
+]

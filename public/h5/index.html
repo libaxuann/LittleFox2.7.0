@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang=zh-CN><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>-</title><script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+			document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')</script><script>function getPcUrl() {
+				let search = window.location.search;
+				let hash = window.location.hash.replace('#/', '');
+				let host = window.location.host;
+				let path = hash;
+				let query = '';
+				if (hash.indexOf('?') !== -1) {
+				  path = hash.split('?')[0];
+				  query = hash.split('?')[1];
+				}
+				switch (path) {
+				  case 'pages/write/index':
+				  case 'pages/write/chat':
+					path = 'write';
+					break;
+				  case 'pages/cosplay/index':
+				  case 'pages/cosplay/chat':
+					path = 'cosplay';
+					break;
+				  case 'pages/draw/chat':
+					path = 'draw';
+					break;
+				  default:
+					path = '';
+				}
+		
+				let pcUrl = 'https://' + host + '/web/' + search + '#/';
+				if (path) {
+				  pcUrl += path;
+				}
+				if (query) {
+				  pcUrl += '?' + query;
+				}
+		
+				return pcUrl;
+			}
+			
+			var ua = navigator.userAgent.toLowerCase();
+			var isMobile = ua.match(/mobile/i);
+			var isWechat = ua.match(/micromessenger/i) && !ua.match(/windows/i) && !ua.match(/macos/i) && !ua.match(/macwechat/i);
+			var isWxapp = window.location.href.indexOf('pages/wxapp/') !== -1;
+			if (!isWechat && !isWxapp && !isMobile) {
+				// 非手机环境跳转走
+				window.location.href = getPcUrl();
+			}</script><script src=/web.php/login/lang></script><link rel=stylesheet href=/h5/static/index.97465e7b.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div id=app></div><script src=/h5/static/js/chunk-vendors.c5d63826.js></script><script src=/h5/static/js/index.c582b6d2.js></script></body></html>

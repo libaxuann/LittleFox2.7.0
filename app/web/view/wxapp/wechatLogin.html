@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>微信授权登录</title>
+</head>
+<body>
+{empty name="user_id"}
+<div className="wrap" style="text-align: center;">
+    <img style="margin: 140px auto 40px; width: 100px;" className="success_logo" src="/static/pay/ic_error.png"/>
+    <div style="margin: 10px;font-size: 24px;">{$error}</div>
+    <div className="line"></div>
+</div>
+{else /}
+<div style="line-height: 100px; text-align:center;">登录成功，跳转中..</div>
+<script src="//res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+<script type="text/javascript">
+    var appid = '{$jssdk["appId"]}';
+    var timestamp = '{$jssdk["timestamp"]}';
+    var nonceStr = '{$jssdk["nonceStr"]}';
+    var signature = '{$jssdk["signature"]}';
+    wx.config({
+        debug: false,
+        appId: appid,
+        timestamp: timestamp,
+        nonceStr: nonceStr,
+        signature: signature,
+        jsApiList: [
+            'checkJsApi',
+            'miniProgram'
+        ]
+    });
+    wx.ready(function () {
+        wx.miniProgram.postMessage({data: {action: 'setToken', data: '{$token}'}});
+        var ua = navigator.userAgent.toLowerCase()
+        if (ua.indexOf('windowswechat') !== -1) {
+            wx.miniProgram.redirectTo({
+                url: '/pages/user/index'
+            });
+        } else {
+            wx.miniProgram.reLaunch({
+                url: '/pages/user/index'
+            })
+        }
+    });
+</script>
+{/empty}
+</body>
+</html>

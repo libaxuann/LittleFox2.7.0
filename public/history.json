@@ -1,0 +1,509 @@
+{
+  "list": [
+    {
+      "version": "v2.7.0",
+      "content": "1、新增思维导图模块（在“后台-功能-思维导图”启用）<br>\r\n2、取消繁体字过滤<br>\r\n3、修复几个bug",
+      "add_time": "2023-12-29",
+      "index": null
+    },
+    {
+      "version": "v2.6.9",
+      "content": "将PC端绘画移植到H5端",
+      "add_time": "2023-12-26",
+      "index": null
+    },
+    {
+      "version": "v2.6.8",
+      "content": "由于普遍反馈近期审查较严，所以强化敏感词过滤：<br>\r\n1、对昵称过滤敏感词<br>\r\n2、取消长篇写作的敏感词过滤<br>\r\n3、恢复国内AI的输出过滤<br>\r\n4、恢复小程序文本安全接口<br>\r\n5、屏蔽繁体字<br>\r\n6、优化绘画敏感词过滤<br>\r\n7、更新敏感词库<br>\r\n8、Dalle3改成GPT4通道<br>\r\n9、修复minimax一个bug1、修复分站小程序不登录时会调用默认站点数据的问题",
+      "add_time": "2023-12-26",
+      "index": null
+    },
+    {
+      "version": "v2.6.7",
+      "content": "1、修复分站小程序不登录时会调用默认站点数据的问题<br>\r\n2、智谱AI、通义千问增加max_tokens配置，通义千问增加几个免费模型<br>\r\n3、更新敏感词库",
+      "add_time": "2023-12-15",
+      "index": null
+    },
+    {
+      "version": "v2.6.6",
+      "content": "1、小程序新增语音对话（在系统设置->AI语音对话，打开开关和配置参数）<br>\r\n2、修复几个bug<br>\r\n需升级小程序，隐私协议添加一条“麦克风”权限",
+      "add_time": "2023-12-14",
+      "index": null
+    },
+    {
+      "version": "v2.6.5",
+      "content": "1、手机端增加多AI通道选择<br>\r\n2、修复手机端通知公告（至少间隔12小时弹出一次）<br>\r\n3、手机端支持左右滑动切换tab<br>\r\n4、修复几个问题<br>\r\n5、敏感词过滤改成仅过滤国外通道<br>\r\n本次需升级小程序（需重新添加新的上传IP白名单）",
+      "add_time": "2023-12-10",
+      "index": null
+    },
+    {
+      "version": "v2.6.4",
+      "content": "1、调整灵犀接口，解决个别绘画不出图的问题<br>\r\n2、调整安全规则，当输出内容敏感词>=3个时，停止输出",
+      "add_time": "2023-12-06",
+      "index": null
+    },
+    {
+      "version": "v2.6.3",
+      "content": "修复2个问题",
+      "add_time": "2023-12-06",
+      "index": null
+    },
+    {
+      "version": "v2.6.2",
+      "content": "优化敏感词过滤",
+      "add_time": "2023-12-06",
+      "index": null
+    },
+    {
+      "version": "v2.6.1",
+      "content": "升级敏感词过滤（对输出的内容也过滤，必须，输出过滤不能单独关）",
+      "add_time": "2023-12-06",
+      "index": null
+    },
+    {
+      "version": "v2.6.0",
+      "content": "升级灵犀接口",
+      "add_time": "2023-12-05",
+      "index": null
+    },
+    {
+      "version": "v2.5.9",
+      "content": "修复几个问题",
+      "add_time": "2023-12-04",
+      "index": null
+    },
+    {
+      "version": "v2.5.8",
+      "content": "修复2个bug",
+      "add_time": "2023-11-30",
+      "index": null
+    },
+    {
+      "version": "v2.5.7",
+      "content": "补充绘画词库",
+      "add_time": "2023-11-30",
+      "index": null
+    },
+    {
+      "version": "v2.5.6",
+      "content": "1、整体升级绘画模块<br>\r\n2、增加DALL-E3支持<br>\r\n3、为提升绘画效果，增加汉译英翻译接口（功能->绘画->翻译接口）<br>\r\n4、增加内置的绘画提示词库<br>\r\n5、后台显示批量任务、长篇写作等记录<br>\r\n6、后台对话记录显示用户IP<br>\r\n7、处理一些问题<br>\r\n8、更新敏感词库\r\n",
+      "add_time": "2023-11-30",
+      "index": null
+    },
+    {
+      "version": "v2.5.5",
+      "content": "1、修复几个问题<br>\r\n2、更新敏感词库\r\n\r\n",
+      "add_time": "2023-11-20",
+      "index": null
+    },
+    {
+      "version": "v2.5.4",
+      "content": "1、新增【长篇写作】模块，可写小说、写论文等<br>\r\n2、修复几个问题<br>\r\n3、更新敏感词库\r\n",
+      "add_time": "2023-11-18",
+      "index": null
+    },
+    {
+      "version": "v2.5.3",
+      "content": "1、继续修复几个问题<br>\r\n2、更新敏感词库\r\n",
+      "add_time": "2023-11-14",
+      "index": null
+    },
+    {
+      "version": "v2.5.2",
+      "content": "1、修复几个问题<br>\r\n2、更新敏感词库\r\n",
+      "add_time": "2023-11-13",
+      "index": null
+    },
+    {
+      "version": "v2.5.1",
+      "content": "1、新增【批量生成】模块（如果用4.0模型按字数计费，其他按次数，vip无法使用）<br>\r\n2、PC前端增加应用中心页面，扩展性更强<br>\r\n3、修复后台邀请记录不显示bug<br>\r\n4、更新智谱AI模型<br>\r\n5、修复智谱AI不换行问题<br>\r\n6、修复AI擂台遗留的几个问题<br>\r\n7、记录使用者IP<br>\r\n8、优化导出word<br>\r\n9、修复其它几个bug",
+      "add_time": "2023-11-12",
+      "index": null
+    },
+    {
+      "version": "v2.5.0",
+      "content": "1、优化上下文关联<br>\r\n2、修复Azure输出中断的bug<br>\r\n3、GPT3.5，GPT4增加1106模型选项<br>\r\n4、更新敏感词库",
+      "add_time": "2023-11-07",
+      "index": null
+    },
+    {
+      "version": "v2.4.9",
+      "content": "1、大幅优化后台首页统计查询速度<br>\r\n2、后台新增创建账号、批量导入账号功能（适合团体客户批量开账号）<br>\r\n3、后台新增AI擂台对话记录<br>\r\n4、优化后台用户管理的搜索选项，增加排序等<br>\r\n5、修复其他几个问题",
+      "add_time": "2023-10-28",
+      "index": null
+    },
+    {
+      "version": "v2.4.8",
+      "content": "新增 AI擂台 模块（后台->功能->AI擂台）",
+      "add_time": "2023-10-28",
+      "index": null
+    },
+    {
+      "version": "v2.4.7",
+      "content": "1、新增 前端切换AI通道（本次仅pc端，其他端默认用选择的第一个），在【后台-系统设置-AI参数配置、高级版AI配置】选择展示哪些通道<br>\r\n2、创作、模拟，前端也可以选择模型<br>\r\n3、修复几个问题<br>\r\n4、更新敏感词库",
+      "add_time": "2023-10-27",
+      "index": null
+    },
+    {
+      "version": "v2.4.6",
+      "content": "1、新增 UI换肤（本次仅pc端，在后台-功能-web版-风格选择），支持自定义皮肤CSS<br>\r\n2、修复几个问题",
+      "add_time": "2023-10-27",
+      "index": null
+    },
+    {
+      "version": "v2.4.5",
+      "content": "修复两个bug",
+      "add_time": "2023-10-24",
+      "index": null
+    },
+    {
+      "version": "v2.4.4",
+      "content": "1、新增 讯飞星火3.0支持<br>\r\n2、各AI通道增加使用教程链接",
+      "add_time": "2023-10-24",
+      "index": null
+    },
+    {
+      "version": "v2.4.3",
+      "content": "1、新增 数据归档功能（超管后台->对话归档），解决数据量大时查询慢的问题<br>\r\n2、优化 对话消息管理（统一在[后台->对话]管理）<br>\r\n3、优化 后台首页数据统计<br>\r\n4、修复 自定义GPT4名称（在AI通道里面改名字）<br>\r\n注意：本次升级完一定要测试对话是否正常，不正常的在后台重新配置一下AI参数",
+      "add_time": "2023-10-21",
+      "index": null
+    },
+    {
+      "version": "v2.4.2",
+      "content": "1、新增AI通道：Azure Openai / 文心一言4.0 / 讯飞星火 / 通义千问 / 腾讯混元 / 智谱AI / MiniMax / Claude2 / ChatGLM / OpenLLM / LocalAI<br>\r\n2、优化AI参数配置方式（先配置各AI通道参数、再添加Key池、再去选择使用哪个通道）<br>\r\n3、GPT4新增文心一言4.0、Azure Openai、Claude2通道<br>\r\n4、大幅优化AI对话部分的代码，更简洁，扩展性更强<br>\r\n5、对话和角色模拟关联上文改成默认3条（内容超长时会自动缩减）<br>\r\n6、知识库新增引擎选项（5个）<br>\r\n7、修复其他BUG<br>\r\n注意：本次升级完一定要测试对话是否正常，不正常的在后台重新配置一下AI参数",
+      "add_time": "2023-10-19",
+      "index": null
+    },
+    {
+      "version": "v2.4.1",
+      "content": "1、修复一个gpt4计费的bug<br>\r\n2、优化慢key的输出<br>\r\n3、升级百度ERNIE-Bot模型的角色模拟能力（其他模型不受影响）",
+      "add_time": "2023-10-12",
+      "index": null
+    },
+    {
+      "version": "v2.4.0",
+      "content": "1、新增 通知公告（本次仅升级PC端）<br>\r\n2、优化几处细节<br>\r\n升级后Ctrl+F5刷新浏览器",
+      "add_time": "2023-10-10",
+      "index": null
+    },
+    {
+      "version": "v2.3.9",
+      "content": "1、后台创作模型加搜索<br>\r\n2、后台角色模型加导入、导出、搜索<br>\r\n3、修复前端几个细节问题",
+      "add_time": "2023-10-09",
+      "index": null
+    },
+    {
+      "version": "v2.3.8",
+      "content": "1、新增 欢迎页示例问题配置（AI自由对话->参数配置）<br>\r\n2、新增 创作模型增加示例问题配置（AI文本创作->模型管理->新增/编辑）<br>\r\n3、新增 角色模拟增加示例问题配置（AI角色模拟->角色管理->新增/编辑）<br>\r\n4、修复 上个版本的一处BUG<br>\r\n小程序下次随其他功能一起升级",
+      "add_time": "2023-10-08",
+      "index": null
+    },
+    {
+      "version": "v2.3.7",
+      "content": "1、百度接口增加几个模型选项（ERNIE-Bot-turbo、Llama-2-13b-chat、Llama-2-70b-chat、ChatGLM2-6B-32K）<br>\r\n2、优化百度接口的前置指令、角色模拟、知识库接口等",
+      "add_time": "2023-10-07",
+      "index": null
+    },
+    {
+      "version": "v2.3.6",
+      "content": "修复几个问题（如数学公式的显示等）",
+      "add_time": "2023-10-07",
+      "index": null
+    },
+    {
+      "version": "v2.3.5",
+      "content": "1、PC创作模型分类折叠<br>\r\n2、PC模型检索忽略大小写<br>\r\n3、优化生成PPT/导出表格逻辑<br>\r\n4、解决输入代码时偶尔有乱码的问题<br>\r\n5、更新敏感词库<br>\r\n6、后台订单显示来源；增加按用户id检索订单<br>\r\n7、后台key池位置移到【系统->key池】；流量主广告配置迁移到【功能->微信小程序->流量主广告】<br>\r\n8、其他一些优化<br>",
+      "add_time": "2023-09-18",
+      "index": null
+    },
+    {
+      "version": "v2.3.4",
+      "content": "优化pc端生成ppt、导出excel<br>\r\n优化代码高亮，优化偶尔乱码问题<br>\r\n优化输出速度，等",
+      "add_time": "2023-09-14",
+      "index": null
+    },
+    {
+      "version": "v2.3.3",
+      "content": "小程序增加隐私协议弹框（适配新规）<br>\r\n本次需升级小程序",
+      "add_time": "2023-09-13",
+      "index": null
+    },
+    {
+      "version": "v2.3.2",
+      "content": "修复几个小程序的bug<br>\r\n本次需更新小程序",
+      "add_time": "2023-09-08",
+      "index": null
+    },
+    {
+      "version": "v2.3.1",
+      "content": "修复几个bug<br>\r\n本次需更新小程序",
+      "add_time": "2023-09-06",
+      "index": null
+    },
+    {
+      "version": "v2.3.0",
+      "content": "修复几个bug及优化细节<br>\r\n注：本次更新涉及小程序",
+      "add_time": "2023-09-04",
+      "index": null
+    },
+    {
+      "version": "v2.2.9",
+      "content": "1、pc端新增卡密兑换<br>\r\n2、修复一个小程序支付的bug",
+      "add_time": "2023-08-29",
+      "index": null
+    },
+    {
+      "version": "v2.2.8",
+      "content": "1、优化小程序审核模式<br>\r\n2、处理几个bug<br>\r\n需重新上传小程序",
+      "add_time": "2023-08-29",
+      "index": null
+    },
+    {
+      "version": "v2.2.7",
+      "content": "修复一个bug",
+      "add_time": "2023-08-29",
+      "index": null
+    },
+    {
+      "version": "v2.2.6",
+      "content": "1、新增绘画功能开关<br>\r\n2、处理bug",
+      "add_time": "2023-08-28",
+      "index": null
+    },
+    {
+      "version": "v2.2.5",
+      "content": "1、修复几个bug<br>\r\n2、升级微信小程序：增加账号登录、对话页面将webview改成原生等",
+      "add_time": "2023-08-28",
+      "index": null
+    },
+    {
+      "version": "v2.2.4",
+      "content": "修复2处bug",
+      "add_time": "2023-08-17",
+      "index": null
+    },
+    {
+      "version": "v2.2.3",
+      "content": "1、修复几个bug<br>\r\n2、pc端输入框自动焦点，发送键换成回车发送<br>\r\n3、gpt4的接口openai改成自定义，以支持更多三方接口",
+      "add_time": "2023-08-17",
+      "index": null
+    },
+    {
+      "version": "v2.2.2",
+      "content": "1、修复几个bug<br>\r\n2、调整后台几个细节<br>\r\n3、因绘画效果不好，移出绘画接口openai和replicate<br>\r\n4、AI参数设置处的openai改成自定义，可扩展性更强",
+      "add_time": "2023-08-16",
+      "index": null
+    },
+    {
+      "version": "v2.2.1",
+      "content": "修复几个问题：<br>\r\n1、修复 pc端绑定微信出错<br>\r\n2、修复 登录方式开关对h5端不起作用<br>\r\n3、修复 普通浏览器h5端支付<br>\r\n4、优化 绘画扣减余额逻辑<br>\r\n5、优化 h5角色模拟页访问数过长时图标变形<br>\r\n6、优化 h5端未登录时的登录提醒<br>",
+      "add_time": "2023-08-14",
+      "index": null
+    },
+    {
+      "version": "v2.2.0",
+      "content": "修复两个bug：<br>\r\n1、修复H5端登录之后页面空白<br>\r\n2、修复IOS端生成海报空白",
+      "add_time": "2023-08-14",
+      "index": null
+    },
+    {
+      "version": "v2.1.9",
+      "content": "1、h5适配普通手机浏览器<br>\r\n2、优化几个小bug",
+      "add_time": "2023-08-12",
+      "index": null
+    },
+    {
+      "version": "v2.1.8",
+      "content": "1、新增H5端手机号登录<br>\r\n2、优化PC版和H5版登录时机（有私有操作时再要求登录）<br>\r\n3、更新敏感词库<br>\r\n4、优化几个细节",
+      "add_time": "2023-08-09",
+      "index": null
+    },
+    {
+      "version": "v2.1.7",
+      "content": "1、新增手机号密码登录方式（在 站点后台->用户->登录设置 启用）<br>\r\n2、优化PC版个人中心<br>\r\n注意：本次仅更新pc版，H5明天更新，小程序版后天更新",
+      "add_time": "2023-08-07",
+      "index": null
+    },
+    {
+      "version": "v2.1.6",
+      "content": "1、H5和小程序端增加“停止回复、重新回答”按钮（不需要升级小程序）<br>\r\n2、修复一个关联上下文的bug",
+      "add_time": "2023-07-28",
+      "index": null
+    },
+    {
+      "version": "v2.1.5",
+      "content": "PC端新增”停止回复、导出word、生成PPT、重新回答“四个按钮<br>\r\nH5和小程序下版更新",
+      "add_time": "2023-07-27",
+      "index": null
+    },
+    {
+      "version": "v2.1.4",
+      "content": "1、新增 分享海报（功能->分享配置）<br>\r\n2、修复两个bug<br>\r\n本次需升级小程序",
+      "add_time": "2023-07-24",
+      "index": null
+    },
+    {
+      "version": "v2.1.3",
+      "content": "新增 公众号自动回复设置（系统->公众号->自动回复）\r\n",
+      "add_time": "2023-07-23",
+      "index": null
+    },
+    {
+      "version": "v2.1.2",
+      "content": "1、修复 创作切换语言bug<br>\r\n2、修复 意间绘图选择尺寸bug<br>\r\n3、修复 ios输入框不能复制粘贴bug<br>\r\n4、修复 后台删除不了模型类别bug<br>\r\n5、修复 设置站点过期时间<br>\r\n6、优化 调整各端跳转逻辑",
+      "add_time": "2023-07-22",
+      "index": null
+    },
+    {
+      "version": "v2.1.1",
+      "content": "1、新增【私有知识库】模块<br>\r\n2、修复几个bug<br>\r\n3、更新敏感词库<br>",
+      "add_time": "2023-07-04",
+      "index": null
+    },
+    {
+      "version": "v2.1.0",
+      "content": "更新两三个小bug",
+      "add_time": "2023-06-27",
+      "index": null
+    },
+    {
+      "version": "v2.0.9",
+      "content": "1、新增[百度文心一言]接口<br>\r\n2、优化AI输出速度<br>\r\n3、修复MJ以图生图<br>\r\n4、修复上个版本的几个问题<br>\r\nzhu",
+      "add_time": "2023-06-25",
+      "index": null
+    },
+    {
+      "version": "v2.0.8",
+      "content": "1、升级pc版绘画模块<br>\r\n2、增加意间AI绘画<br>\r\n3、修复一些bug<br>",
+      "add_time": "2023-06-23",
+      "index": null
+    },
+    {
+      "version": "v2.0.7",
+      "content": "继续修复几个bug\r\n",
+      "add_time": "2023-06-17",
+      "index": null
+    },
+    {
+      "version": "v2.0.6",
+      "content": "1、创作模型增加导入导出功能<br>\r\n2、增加gpt-3.5-turbo-16k、gpt-4-0613模型等选择项<br>\r\n2、PC端新增SEO配置、js统计代码（仅id=1的站点可以设置）<br>\r\n3、修复几个其他bug",
+      "add_time": "2023-06-17",
+      "index": null
+    },
+    {
+      "version": "v2.0.5",
+      "content": "修复一些bug",
+      "add_time": "2023-06-12",
+      "index": null
+    },
+    {
+      "version": "v2.0.4",
+      "content": "修复一个pc版的bug",
+      "add_time": "2023-06-06",
+      "index": null
+    },
+    {
+      "version": "v2.0.3",
+      "content": "修复几个bug",
+      "add_time": "2023-06-05",
+      "index": null
+    },
+    {
+      "version": "v2.0.2",
+      "content": "1、修复后台文章删除<br>2、修复小程序端文章图片显示",
+      "add_time": "2023-06-03",
+      "index": null
+    },
+    {
+      "version": "v2.0.1",
+      "content": "1、调整登录保持时间为72小时<br>2、修复h5端文章显示<br>3、修复bug",
+      "add_time": "2023-06-03",
+      "index": null
+    },
+    {
+      "version": "v2.0.0",
+      "content": "1、修复bug<br>2、h5和小程序端增加使用手册<br>3、更新敏感词库<br>本次需更新小程序",
+      "add_time": "2023-06-02",
+      "index": null
+    },
+    {
+      "version": "v1.9.9",
+      "content": "紧急修复几个bug",
+      "add_time": "2023-06-01",
+      "index": null
+    },
+    {
+      "version": "v1.9.8",
+      "content": "请先备份站点和数据库再升级：<br>1、大幅升级pc版ui和功能<br>2、后台新增文档中心模块<br>3、关于我们、联系客服、免责声明等迁移到文档中心<br>4、可自定义gpt4别名<br>5、修复一些其他bug<br>本次更新需升级小程序",
+      "add_time": "2023-06-01",
+      "index": null
+    },
+    {
+      "version": "v1.9.7",
+      "content": "修复几个bug",
+      "add_time": "2023-05-26",
+      "index": null
+    },
+    {
+      "version": "v1.9.6",
+      "content": "1、修复几个bug<br>2、优化数据库速度",
+      "add_time": "2023-05-24",
+      "index": null
+    },
+    {
+      "version": "v1.9.5",
+      "content": "1、新增GPT4模式<br>\r\n2、调整小程序webview支持markdown<br>\r\n3、更新敏感词库<br>\r\n4、修复一些bug<br>\r\n*本次需上传审核小程序<br>\r\n*GPT4使用方法：在子站点系统设置->GPT4配置处打开开关，并在key池配置支持GPT4的key",
+      "add_time": "2023-05-23",
+      "index": null
+    },
+    {
+      "version": "v1.9.4",
+      "content": "请选择非繁忙时段升级本版本：<br>\r\n1、调整key的配置，统一使用key池，为以后扩展更多接口打基础<br>\r\n2、优化关键词库<br>\r\n注意：升级完本版本以后，一定一定要测试AI对话和绘图功能是否正常",
+      "add_time": "2023-05-20",
+      "index": null
+    },
+    {
+      "version": "v1.9.3",
+      "content": "1、小程序端增加【绘画】模块<br>\r\n2、优化小程序一些细节<br>\r\n本次需升级小程序",
+      "add_time": "2023-05-18",
+      "index": null
+    },
+    {
+      "version": "v1.9.2",
+      "content": "1、修复几个bug<br>\r\n2、更换灵犀绘画接口",
+      "add_time": "2023-05-14",
+      "index": null
+    },
+    {
+      "version": "v1.9.1",
+      "content": "解决几个bug",
+      "add_time": "2023-05-13",
+      "index": null
+    },
+    {
+      "version": "v1.9.0",
+      "content": "【优化】服务器响应速度慢时生成图片失败的问题",
+      "add_time": "2023-05-12",
+      "index": null
+    },
+    {
+      "version": "v1.8.9",
+      "content": "1、增加后台手动加绘画次数<br>\r\n2、增加新用户送绘画次数<br>\r\n3、云存储改成在超管后台配置<br>\r\n4、修复H5首次进入会弹网络错误的问题<br>\r\n5、修复其他几个小问题",
+      "add_time": "2023-05-11",
+      "index": null
+    },
+    {
+      "version": "v1.8.8",
+      "content": "1、新增【AI绘画】模块<br>\r\n2、本次更新文件较多，请选择在非繁忙时段升级，升级完之后做测试<br>\r\n本次不需要上传小程序",
+      "add_time": "2023-05-11",
+      "index": null
+    },
+    {
+      "version": "v1.8.7",
+      "content": "修复H5在ios端某些情况下调起支付失败的问题\r\n",
+      "add_time": "2023-05-11",
+      "index": null
+    }
+  ],
+  "total": 84
+}

@@ -1,0 +1,26 @@
+版本：v2.7.0
+资源来自网络，本人不负责该项目任何责任以及支持
+资源来自网络，本人不负责该项目任何责任以及支持
+资源来自网络，本人不负责该项目任何责任以及支持
+资源来自网络，本人不负责该项目任何责任以及支持
+
+---------------------------------
+友情链接：Nine-ai 基础绘画 快速导入：https://gsol6smrwo.feishu.cn/docx/MVRcdyCAFoD5N8xZ3Dyc4y4fnJb
+友情链接：Nine-ai 应用数据 快速导入：https://gsol6smrwo.feishu.cn/docx/QBZed5QHPo6JJSx5NpBcR65Xnfb
+---------------------------------
+
+搭建教程：https://wisestai.feishu.cn/docx/Y0B0dyKiGoEGFUxHVlRcHbsYnDg
+====================
+文件夹说明：
+1、后端：文件夹是后台文件
+5、fox_ai_db.sql 文件是数据库文件
+====================
+后台安装步骤：
+1、在宝塔新建个站点，php版本使用7.2 、 7.3 或 7.4，将“后端”文件夹里的文件上传到站点根目录，运行目录设置为/public
+2、导入数据库文件，数据库文件是 /fox_ai_db.sql
+3、修改数据库连接配置，配置文件是/.env
+4、正式使用时，请把调试模式关闭：/.env文件第一行，true改成false
+5、超管后台地址：http://域名/super  初始账号密码：super  123456   及时修改
+6、后台地址：http://域名/admin  初始账号密码：admin  123456   及时修改
+====================
+在线文档地址：https://wisestai.feishu.cn/docx/Y0B0dyKiGoEGFUxHVlRcHbsYnDg
